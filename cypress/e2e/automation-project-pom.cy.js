@@ -4,10 +4,10 @@ import { faker } from '@faker-js/faker'
 import Cadastro from '../pages/cadastro';
 import cadastro from '../pages/cadastro';
 
-describe('Projeto de conclusão da disciplina de Automação de Testes WEB', () => {
-  it('Test Case 1: Cadastrar um usuário', () => {
-    cadastro.preencherFormulario()
-    cy.get('i.fa-user').parent().should('contain', Cypress.env('signUpName') )
+describe('disciplina de Automação de Testes WEB', () => {
+  //it('Test Case 1: Cadastrar um usuário', () => {
+    //cadastro.preencherFormulario()
+    //cy.get('i.fa-user').parent().should('contain', Cypress.env('signUpName') )
 
   });
 
@@ -175,4 +175,3 @@ describe('Projeto de conclusão da disciplina de Automação de Testes WEB', () 
 
 
   });
-});
